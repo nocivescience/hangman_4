@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(ellipse, #4b4b4b, #000000);
+  background-attachment: fixed;
+}
+body h1 {
+  font-family: "VT323", monospace;
+  color: red;
+  -webkit-text-stroke: #00ff08 1px;
+  font-size: 100px;
+  margin: 0;
+}
+body .wrong-letter-container {
+  height: 100px;
+  border: 1px black solid;
+  width: 40vw;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.popup-container h2, .popup-container button {
+  font-family: "Press Start 2P", cursive;
+  padding: 10px;
+  border-radius: 0;
+  color: #000;
+}
+.popup-container button {
+  background-color: #f6ff00;
+}
+.popup-container button:active {
+  transform: scale(0.94);
+  background-color: #00ff08;
+}
+
+.container-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification-container {
+  font-family: "Press Start 2P", cursive;
+}/*# sourceMappingURL=style.css.map */

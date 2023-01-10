@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=VT323&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&display=swap')
+$fuente-arcade-bonita: 'VT323', monospace
+$fuente-arcade-fea: 'Press Start 2P', cursive
+body
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background: radial-gradient(ellipse,#4b4b4b,#000000)
+    background-attachment: fixed
+    h1
+        font-family: $fuente-arcade-bonita
+        color: red
+        -webkit-text-stroke: #00ff08 1px
+        font-size: 100px
+        margin: 0
+    .wrong-letter-container
+        height: 100px
+        border: 1px black solid
+        width: 40vw
+.figure-container
+    fill: transparent
+    stroke: #ffffff
+    stroke-width: 4px
+    stroke-linecap: round
+.popup-container
+    h2, button
+        font-family: $fuente-arcade-fea
+        padding: 10px
+        border-radius: 0
+        color: #000
+    button
+        background-color: #f6ff00
+    button
+        &:active
+            transform: scale(.94)
+            background-color: #00ff08
+.container-game
+    display: flex
+    flex-direction: column
+    align-items: center
+.notification-container
+    font-family: $fuente-arcade-fea
